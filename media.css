@@ -1,0 +1,158 @@
+/* ===================== */
+/*  📱 MOBILE RESPONSIVE */
+/* ===================== */
+
+@media (max-width: 768px) {
+  .menu-icon>img {
+    display: block;
+  }
+  
+  .navbar {
+    justify-content: space-between;
+    background-color: #f1ebe7;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 56px;
+    left: 65%;
+    width: 35%;
+    background-color: #f1ebe7;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 5px 0;
+    gap: 15px;
+
+  }
+
+  .logo>img {
+    height: 32px;
+  }
+
+  .logo {
+    padding: 3px 2px;
+  }
+
+  .nav-links li {
+    margin: 2px 0;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    color: #111;
+    font-size: 20px;
+  }
+
+  .nav-links li a {
+    color: #000000;
+    font-size: 12px;
+  }
+  .section6{
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  /* ===== Header ===== */
+
+  .row {
+    padding-left: 40px;
+  }
+
+  .col {
+    margin-top: 0px;
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 0px;
+  }
+
+  .col>img {
+    width: 100%;
+    padding-top: 40px;
+    padding-right: 50px;
+  }
+
+  .col>h1 {
+    padding-top: 50px;
+    font-size: 1.8rem;
+    padding-left: 0px;
+    padding-right: 50px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+
+  .col>p {
+    font-size: 0.8rem;
+    margin: 20px 0px;
+    padding-left: 0px;
+    padding-right: 50px;
+  }
+
+  .col>a {
+    font-size: 1rem;
+    padding-left: 0px;
+  }
+
+  /* ===== section 2 and 3 ===== */
+
+  .grid1 {
+    margin: 0px 40px;
+    gap: 5px;
+  }
+
+  /* ===== Section 5 ===== */
+
+  .row3 {
+    gap: 10px;
+  }
+
+  .col3 {
+    max-width: 200px;
+  }
+
+  /* ===== Section 6 ===== */
+
+  .row4 {
+    gap: 20px;
+  }
+
+  .col4>img {
+    height: 60px;
+  }
+
+  /* ===== Footer ===== */
+
+  .row5 {
+    padding: 30px 30px;
+  }
+
+  .col5>h3 {
+    font-size: medium;
+  }
+
+  .col5>img {
+    height: 30px;
+  }
+
+  .col5>div>img {
+    height: 30px;
+  }
+
+  .copytight {
+    background-color: black;
+    text-align: center;
+  }
+
+  .copytight>p {
+    font-size: 10px;
+  }
+}
